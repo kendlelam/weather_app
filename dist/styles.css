@@ -1,0 +1,82 @@
+body{
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+  padding:20px;
+  background-color: rgb(214, 252, 255);
+  font-size: 3em;
+  text-align: center;
+}
+
+button{
+  background-color: #ee6c4d;
+  color:white;
+  border:none;
+  border-radius: 5px;
+  font-size:0.5em;
+}
+input{
+  font-size:0.5e;
+}
+
+.form{
+  display: flex;
+  gap:10px;
+  font-size:2em;
+}
+
+
+#location{
+  width:500px;
+}
+
+.welcome{
+  margin-top:100px;
+  font-weight:bold;
+  font-size:2em;
+}
+
+.welcome.inactive{
+  display: none;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  gap:30px;
+  padding:10px;
+}
+
+.info{
+  border: 4px solid rgb(66, 174, 247);
+  border-radius:10px;
+  padding:10px 100px;
+  display:none;
+  flex-direction: column;
+  gap:5px;
+  align-items: center;
+
+}
+
+.info.active{
+  display: flex;
+}
+
+#location-title{
+  font-size:2em;
+}
+
+#icon {
+  min-height:100px;
+}
+
+#temp{
+  font-size:2em;
+}
+#temp::after, #feel::after{
+  content: "\2109" ;
+}
